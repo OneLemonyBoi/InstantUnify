@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+issueTrackerURL="http://my.issue.tracker/"
+license="MIT"
+
+[[mods]]
+modId="instantunify"
+version="1.0.0"
+displayName="InstantUnify"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/instantunify"
+credits="Thanks for this example mod goes to Java"
+authors="OneLemonyBoi"
+description='''
+Unifies oredicted items automatically
+'''
+
+[[dependencies.instantunify]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.instantunify]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.16.5]"
+    ordering="NONE"
+    side="BOTH"
